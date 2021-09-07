@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+body{
+    
+    background-image: linear-gradient(to left , #2b0126, #1e0624);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-top: 2%;
+    justify-content: center;
+    color: black;
+    padding-bottom: 6%;
+}
+
+header{
+    background-color: #546A7B;
+    padding: 20px;
+    padding-top: 5px;
+    border-radius: 10px;
+
+}
+
+h1{
+    background-color: #208AAE;
+    padding: 5px 20px;
+    box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.439);
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+#menu{
+    background-color: #134611;
+    padding: 5px 30px;
+    box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.439);
+    margin-right: 60px;
+    margin-left: -30px;
+
+    display: block;
+    border-color: #134611;
+    border-left-color: white;
+    border-width: 10px;
+    border-style: solid;  
+
+}
+
+#menu > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 60px;
+    padding: 20px;
+}
+
+#menu > a:hover{
+    color: #59C3C3;
+    font-size: larger;
+} 
+
+
+main{
+    background-color: #546A7B;
+    padding: 25px;
+    margin-top: 24px;
+    border-radius: 10px;
+}
+
+#materias{
+    padding: 20px;
+    padding-top: 50px;
+}
+
+#materias > a{
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #208AAE;
+    padding: 20px;  
+    }
+
+#duvida{
+    color: rgb(61, 61, 61);
+    font-size: 1.5em;
+    padding: 1em;
+    background-color: rgb(194, 191, 191);
+}
+
+
