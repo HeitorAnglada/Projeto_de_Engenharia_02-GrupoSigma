@@ -79,13 +79,6 @@ main{
     margin-top: 24px;
     border-radius: 10px;
 }
-.resumo{
-
-    display: inline-block;
-    width: 100%;
-
-
-}
 
 #materias{
     padding: 20px;
@@ -146,5 +139,36 @@ footer > a:hover{
 
 }
 
+.fundo_branco{
+    background-color: white;
+    padding: 1em;
+}
 
+p{
+    text-align:left;
+    font-size: 1.2em;
+    text-indent: 2em;
+}
 
+h3{
+    font-size: 2em;
+}
+
+.resumo{
+
+    display: block;
+    width: 100%;
+    width: max-conten;
+}
+
+.resumo-small{
+    width:auto;
+    text-align: center;
+    display: inline-block;
+    max-width: 300p
+    
+}
+
+.resumo-big{
+    width: 60%;
+}
